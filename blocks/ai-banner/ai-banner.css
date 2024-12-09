@@ -1,0 +1,38 @@
+
+.ai-banner-container > .ai-banner-wrapper {
+  background-color: #c0d6e4; /* Light blue background */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100px; /* Example height, adjust as needed */
+  text-align: center; /* Center text alignment */
+  max-width: unset;
+  padding: 0;
+}
+
+.ai-banner-container > .ai-banner-wrapper > .block.ai-banner {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  width: 100%; /* Full width to ensure centering within parent */
+}
+
+.ai-banner-container > .ai-banner-wrapper > .block.ai-banner > div {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  width: 100%; /* Full width to ensure centering within parent */
+  flex-direction: row; /* Ensure elements are side by side */
+}
+
+.ai-banner-container > .ai-banner-wrapper > .block.ai-banner h3#upcoming-events {
+  margin: 0; /* Remove default margin */
+  font-size: 24px; /* Adjust font size */
+  font-weight: 400; /* Adjust font weight */
+  color: #333; /* Example text color, adjust as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Ensure full height for vertical centering */
+  line-height: normal; /* Remove specific line-height to avoid conflict */
+}

@@ -1,0 +1,35 @@
+
+.ai-more-events-button-container > .ai-more-events-button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f4f8; /* Light grey/off-white background */
+    max-width: unset;
+    padding: 70px 0; /* Increase vertical padding */
+    height: auto; /* Ensure it doesn't take full viewport height */
+}
+
+.ai-more-events-button-container > .ai-more-events-button-wrapper > .block.ai-more-events-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%; /* Ensure the block takes full width */
+}
+
+.ai-more-events-button-container > .ai-more-events-button-wrapper > .block.ai-more-events-button .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ai-more-events-button-container > .ai-more-events-button-wrapper > .block.ai-more-events-button .button-container .button {
+    background-color: #006d7d; /* Teal/Dark cyan background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+}

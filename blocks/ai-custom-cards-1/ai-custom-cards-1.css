@@ -1,0 +1,58 @@
+
+.ai-custom-cards-1-wrapper .ai-custom-cards-1 > ul {
+  display: flex;
+  justify-content: space-between; /* Space between each card */
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+/* Individual card styling */
+.ai-custom-cards-1-wrapper .ai-custom-cards-1 > ul > li {
+  border: 2px solid #f0c26c; /* Light border color */
+  border-radius: 8px; /* Slightly rounded corners */
+  background-color: #fff; /* Background color for each card */
+  flex: 1;
+  margin: 0 10px; /* Margin between cards */
+  display: flex;
+  flex-direction: column; /* Stack elements inside each card vertically */
+  align-items: center; /* Center elements horizontally */
+  text-align: center; /* Center text */
+  padding: 20px; /* Padding inside each card */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: slight shadow for better visual separation */
+}
+
+/* Image styling */
+.ai-custom-cards-1-wrapper .ai-custom-cards-1-card-image {
+  margin-bottom: 10px; /* Space between image and text */
+}
+
+.ai-custom-cards-1-wrapper .ai-custom-cards-1-card-image img {
+  max-width: 100px; /* Ensure images fit within the card */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove inline spacing */
+  margin: 0 auto; /* Center image horizontally */
+}
+
+/* Text styling */
+.ai-custom-cards-1-wrapper .ai-custom-cards-1-card-body {
+  display: flex;
+  flex-direction: column; /* Ensure text is properly aligned vertically */
+  justify-content: center; /* Center text vertically */
+  align-items: center; /* Center text horizontally */
+  height: 100%;
+}
+
+.ai-custom-cards-1-wrapper .ai-custom-cards-1-card-body h2 {
+  font-size: 18px; /* Adjusted text size */
+  color: #005f73; /* Text color */
+  margin: 0; /* Remove default margin */
+  font-weight: 600; /* Bolder font weight */
+  line-height: 1.2; /* Adjusted line height for better readability */
+}
+
+.ai-custom-cards-1-wrapper .ai-custom-cards-1-card-body h2 a {
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Inherit color from h2 */
+  font-weight: inherit; /* Inherit font weight */
+}

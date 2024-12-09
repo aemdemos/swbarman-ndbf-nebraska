@@ -1,0 +1,60 @@
+
+.ai-custom-columns-2-wrapper {
+    background-color: #E8ECF1; /* Light grey background color */
+    padding: 20px; /* Add some padding around the container */
+}
+
+.ai-custom-columns-2 {
+    display: flex;
+    gap: 20px; /* Space between the two side-by-side divs */
+}
+
+.ai-custom-columns-2 > div {
+    flex: 1; /* Ensure each inner div takes up equal space */
+    display: flex;
+    flex-direction: row; /* Ensure children are side-by-side */
+}
+
+.ai-custom-columns-2 > div > div:first-child {
+    background-color: #B4CD33; /* Light green background color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the green box */
+    flex: 1; /* Ensure it takes up necessary space */
+    display: flex;
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    text-align: center; /* Center text horizontally */
+}
+
+.ai-custom-columns-2 > div > div:last-child {
+    background-color: #FFFFFF; /* White background color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the white box */
+    flex: 2; /* Ensure it takes up remaining space */
+    display: flex;
+    flex-direction: column; /* Stack inner elements vertically */
+    justify-content: flex-start; /* Align items to the start vertically */
+}
+
+.ai-custom-columns-2 ul {
+    list-style: none; /* Remove the default list style */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+.ai-custom-columns-2 a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit the color */
+}
+
+.ai-custom-columns-2 p {
+    margin: 0 0 1em 0; /* Add some margin between paragraphs */
+}
+
+.ai-custom-columns-2 p strong {
+    color: #007BFF; /* Blue color for strong text */
+}
+
+.ai-custom-columns-2 a[title="Read More"] {
+    color: #FF0000; /* Red color for the "Read More" link */
+}

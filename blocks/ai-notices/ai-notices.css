@@ -1,0 +1,68 @@
+
+.ai-notices-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px; /* Increased padding for more space around the block */
+  background-color: #f9f9f9;
+}
+
+.ai-notices-wrapper > .ai-notices.block {
+  background-color: white;
+  border: 2px solid #ddd; /* More prominent border */
+  border-radius: 10px; /* Slightly more rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* More prominent shadow */
+  padding: 30px; /* Increased padding inside the block */
+  width: 80%; /* Adjust width as needed */
+  max-width: 600px; /* Optional: to limit the maximum width */
+  display: flex;
+  flex-direction: column; /* Ensure elements are stacked vertically */
+}
+
+/* Title Styling */
+.ai-notices-wrapper > .ai-notices.block > div > div > h2 {
+  text-align: center;
+  font-size: 2.5em; /* Slightly larger font size */
+  font-weight: bold; /* Increased font weight */
+  margin-bottom: 20px; /* Adjusted bottom margin */
+  margin-top: 0; /* Increased top margin */
+}
+
+/* Notices List */
+.ai-notices-wrapper > .ai-notices.block > div > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.ai-notices-wrapper > .ai-notices.block > div > div > p {
+  margin: 20px 0; /* Increased vertical margin for more spacing */
+}
+
+/* Link Styling */
+.ai-notices-wrapper > .ai-notices.block > div > div > p > a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.ai-notices-wrapper > .ai-notices.block > div > div > p > a:hover {
+  text-decoration: underline;
+}
+
+/* View All Link Styling */
+.ai-notices-wrapper > .ai-notices.block > div > div > p.button-container {
+  text-align: right;
+  margin-top: 30px; /* Increased margin to separate from the last notice */
+}
+
+.ai-notices-wrapper > .ai-notices.block > div > div > p.button-container > a.button {
+  color: #007bff;
+  text-decoration: none;
+  background: none; /* Remove button background */
+  border: none; /* Remove button border */
+  padding: 0; /* Remove padding to make it look like a link */
+  font-size: 1.2em; /* Increased font size */
+}
+
+.ai-notices-wrapper > .ai-notices.block > div > div > p.button-container > a.button:hover {
+  text-decoration: underline;
+}

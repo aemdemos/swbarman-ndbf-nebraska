@@ -1,0 +1,124 @@
+
+/* Wrapper for the two main sections */
+.ai-custom-columns-1-wrapper {
+  display: flex;
+  gap: 20px; /* space between the two sections */
+}
+
+/* First section on the left */
+.ai-custom-columns-1 > div > div:first-child {
+  flex: 2; /* larger section */
+}
+
+.ai-custom-columns-1 > div > div:first-child > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.ai-custom-columns-1 h1,
+.ai-custom-columns-1 h3 {
+  margin: 0;
+}
+
+.ai-custom-columns-1 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.ai-custom-columns-1 ul li {
+  margin-bottom: 10px;
+}
+
+.ai-custom-columns-1 ul li:last-child {
+  margin-bottom: 0;
+}
+
+/* Image styling */
+.ai-custom-columns-1 picture {
+  position: relative;
+}
+
+.ai-custom-columns-1 picture img {
+  width: 100%;
+  height: auto;
+}
+
+/* Text overlay on images */
+.ai-custom-columns-1 ul li:first-child {
+  position: relative;
+}
+
+.ai-custom-columns-1 ul li:first-child .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Second section on the right */
+.ai-custom-columns-1 > div > div:last-child {
+  flex: 1; /* smaller section */
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* space between elements */
+}
+
+.ai-custom-columns-1 > div > div:last-child > ul {
+  list-style: none;
+  padding: 0;
+}
+
+.ai-custom-columns-1 > div > div:last-child > ul > li {
+  margin-bottom: 10px;
+}
+
+.ai-custom-columns-1 > div > div:last-child > h2 {
+  margin: 20px 0;
+  background-color: var(--light-color); /* Adding background color to the title */
+  padding: 10px;
+}
+
+/* Button-like h2 elements */
+.ai-custom-columns-1 > div > div:last-child > h2 > a {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+#request-aspeakerfrombanking-finance > a {
+  background-color: #b0003a;
+}
+
+#meet-ourstaff > a {
+  background-color: #c8c84c;
+}
+
+#join-ourteam > a {
+  background-color: #c3d9e0;
+}
+
+/* Responsive adjustments */
+@media (min-width: 900px) {
+  .ai-custom-columns-1-wrapper {
+    flex-direction: row;
+  }
+  
+  .ai-custom-columns-1 > div {
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .ai-custom-columns-1 > div > div {
+    flex: 1;
+    order: unset;
+  }
+}

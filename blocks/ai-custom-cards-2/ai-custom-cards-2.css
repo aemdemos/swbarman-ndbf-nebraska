@@ -1,0 +1,81 @@
+
+.ai-custom-cards-2-wrapper > .ai-custom-cards-2 > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ai-custom-cards-2-wrapper > .ai-custom-cards-2 > ul > li {
+  background-color: #0D667F; /* Background color for each card */
+  border-radius: 10px; /* Rounded corners */
+  margin: 10px; /* Space between cards */
+  padding: 20px; /* Internal padding for each card */
+  flex: 1; /* Flex property to ensure they are of equal width */
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center;
+  text-align: center; /* Center the text */
+  border: none; /* Remove the border */
+}
+
+.ai-custom-cards-2-wrapper > .ai-custom-cards-2 .ai-custom-cards-2-card-image {
+  margin-bottom: 10px; /* Space between the image and the text */
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+}
+
+.ai-custom-cards-2-wrapper > .ai-custom-cards-2 .ai-custom-cards-2-card-image img {
+  width: 100px; /* Set a fixed width for the images */
+  height: auto; /* Ensure the image keeps its aspect ratio */
+}
+
+.ai-custom-cards-2-wrapper > .ai-custom-cards-2 .ai-custom-cards-2-card-body {
+  margin: 0;
+  color: #ffffff; /* Set text color to white */
+  list-style: none; /* Remove list item bullets */
+  padding: 0; /* Remove padding that might be causing bullets to appear */
+  display: flex;
+  flex-direction: column; /* Stack text elements vertically */
+  align-items: center; /* Center the text horizontally */
+}
+
+/* Remove the extra `[-` element */
+.ai-custom-cards-2-wrapper > .ai-custom-cards-2 .ai-custom-cards-2-card-body h3 {
+  display: none;
+}
+
+/* Link styling to ensure it appears as a clickable hyperlink */
+.ai-custom-cards-2-wrapper > .ai-custom-cards-2 .ai-custom-cards-2-card-body a {
+  color: #ffffff; /* Text color */
+  text-decoration: none; /* Remove underline */
+}
+
+.ai-custom-cards-2-wrapper > .ai-custom-cards-2 .ai-custom-cards-2-card-body a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Remove list item bullets and fix alignment */
+.ai-custom-cards-2-wrapper > .ai-custom-cards-2 .ai-custom-cards-2-card-body ul {
+  list-style: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items */
+}
+
+.ai-custom-cards-2-wrapper > .ai-custom-cards-2 .ai-custom-cards-2-card-body ul li {
+  margin: 0; /* Remove margin */
+}
+
+/* Ensure links within list items are styled as clickable hyperlinks */
+.ai-custom-cards-2-wrapper > .ai-custom-cards-2 .ai-custom-cards-2-card-body ul li a {
+  color: #ffffff; /* Text color */
+  text-decoration: none; /* Remove underline */
+}
+
+.ai-custom-cards-2-wrapper > .ai-custom-cards-2 .ai-custom-cards-2-card-body ul li a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
